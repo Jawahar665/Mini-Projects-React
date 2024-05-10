@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Sedan+SC&display=swap");
+
+* {
+  margin: 0;
+  padding: 0%;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Sedan", Tahoma, Geneva, Verdana, sans-serif;    
+}
+#root {
+  display: flex;
+  align-items: center; 
+  justify-content: center; 
+   gap: 20px;
+  flex-wrap: wrap;
+  min-height: 100vh;
+  margin: 0;
+}
+.main-container{
+    display: flex;
+    background-color: #0e21a0;
+}
+h3 {
+  margin-top: 20px;
+  background-color: blanchedalmond;
+  text-align: center;
+}
+h5 {
+  background-color: blueviolet;
+  padding: 7px;
+  text-align: center;
+  margin: 30px;
+}
+img {
+  border-radius: 50%;
+  height: 200px;
+  margin-left: 20px;
+  align-items: center;
+}
+
+h4 {
+  text-align: center;
+  margin: 10px;
+  color: blanchedalmond;
+}
+p {
+  margin: 10px;
+  text-align: center;
+  color: blanchedalmond;
+}
+button {
+  background-color: #ec53b0;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  display: flex;
+  padding: 15px 80px;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  color: black;
+  font-size: 15px;
+}
+.card-container {
+  background-color: #0e21a0;
+  padding: 50px 80px;
+  text-align: center;
+  margin: 20px;
+}
+.container{
+    display: flex;
+}
